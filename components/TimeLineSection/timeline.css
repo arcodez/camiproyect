@@ -1,0 +1,149 @@
+.timelineSection {
+  width: 100%;
+  position: relative;
+}
+
+.timeline-section {
+  margin: 5em auto;
+  max-width: 34.15em;
+  font-size: 10px;
+}
+
+.timeline-blob1 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: -30px;
+}
+
+.timeline-blob2 {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: -30px;
+}
+
+.timeline-tittle {
+  margin: 0.3em;
+  padding-bottom: 2em;
+  font-size: 2em;
+  text-align: center;
+  text-transform: initial;
+  width: 100%;
+}
+
+.timeline-card-content h2 {
+  margin-bottom: 0.5em;
+  text-align: center;
+  border-bottom: 3px solid #fb0000;
+  width: 70%;
+}
+
+.timeline-card {
+  max-width: 34em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: relative;
+}
+
+.timeline-card-content {
+  /* border: 2px solid #888; */
+  border-radius: 1em;
+  padding: 1.5em;
+  display: grid;
+  place-items: center;
+}
+
+.timeline-card-content p {
+  line-height: 27px;
+  color: #ccc;
+}
+
+.timeline-card-content img {
+  width: 100%;
+  line-height: 27px;
+  color: #ccc;
+  /* border-radius: 1em; */
+}
+
+.timeline-card:nth-child(odd) {
+  border-left: 3px solid #888;
+  padding-left: 3em;
+  transform: translateX(16.77em);
+}
+
+.timeline-card:nth-child(even) {
+  border-right: 3px solid #888;
+  padding-right: 3em;
+  transform: translateX(-17em);
+}
+
+.timeline-card:nth-child(even)::before,
+.timeline-card:nth-child(odd)::before {
+  content: "";
+  background: #888;
+  width: 3em;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline-card:nth-child(odd)::before {
+  left: 0;
+}
+
+.timeline-card:nth-child(even)::before {
+  right: 0;
+}
+
+.timeline-card:nth-child(even) div::before,
+.timeline-card:nth-child(odd) div::before {
+  content: "";
+  background: red;
+  box-shadow: 0 0 0.5em #fb0000;
+  width: 0.8em;
+  height: 0.8em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.timeline-card:nth-child(odd) div::before {
+  left: -0.5em;
+}
+
+.timeline-card:nth-child(even) div::before {
+  right: -0.5em;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1150px) {
+  .timeline-cards {
+    width: 80vh;
+  }
+
+  .timeline-cards .timeline-card {
+    width: 100%;
+    transform: none;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+  }
+
+  .timeline-cards .timeline-card::before {
+    width: 3px;
+    height: 4em;
+    top: -2em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .timeline-cards .timeline-card div::before {
+    top: -0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

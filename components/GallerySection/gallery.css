@@ -1,0 +1,123 @@
+.gallery-section {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.gallery-section-title {
+  font-family: "Parisienne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+}
+
+.gallery-blob1 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: -100px;
+}
+
+.gallery-blob2 {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: -100px;
+}
+
+.gallery-cards {
+  width: 90%;
+  display: grid;
+  grid-template-areas:
+    "card1 card1 card2 card3 card6"
+    "card1 card1 card4 card5 card6";
+  grid-gap: 16px;
+  padding: 16px;
+}
+
+.gallery-card-image {
+  background-color: green;
+}
+
+.gallery-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-card1 {
+  grid-area: card1;
+  overflow: hidden;
+}
+.gallery-card2 {
+  grid-area: card2;
+}
+.gallery-card3 {
+  grid-area: card3;
+}
+.gallery-card4 {
+  grid-area: card4;
+}
+.gallery-card5 {
+  grid-area: card5;
+}
+.gallery-card6 {
+  grid-area: card6;
+  overflow: hidden;
+  /* height: 0px; */
+  /* height: 700px; */
+}
+
+.gallery-card2 .gallery-card-image {
+  height: 320px;
+  object-fit: cover;
+}
+.gallery-card3 .gallery-card-image {
+  height: 320px;
+  object-fit: cover;
+}
+.gallery-card4 .gallery-card-image {
+  height: 320px;
+  object-fit: cover;
+}
+.gallery-card5 .gallery-card-image {
+  height: 320px;
+  object-fit: cover;
+}
+
+.gallery-card1 .gallery-card-image {
+  height: 660px;
+  object-fit: cover;
+}
+
+.gallery-card6 .gallery-card-image {
+  height: 660px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 900px) {
+  .gallery-cards {
+    grid-template-areas:
+      "card1 card1"
+      "card2 card3"
+      "card4 card5"
+      "card6 card6";
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card-text-title {
+    font-size: 38px;
+  }
+
+  .card-text-paragraph {
+    font-size: 10px;
+  }
+
+  .card-section-image img {
+    width: 200px;
+  }
+}
