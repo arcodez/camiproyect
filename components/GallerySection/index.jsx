@@ -8,32 +8,32 @@ const GallerySection = () => {
       <div className="gallery-cards">
         <div className="gallery-card1">
           <div className="gallery-card-image">
-            <img src="/camila/cami_stand.png" alt="" />
+            <img src="/camila/cami_stand.jpg" alt="" />
           </div>
         </div>
         <div className="gallery-card2">
           <div className="gallery-card-image">
-            <img src="/camila/cami_car.png" alt="" />
+            <img src="/camila/cami_car.jpg" alt="" />
           </div>
         </div>
         <div className="gallery-card3">
           <div className="gallery-card-image">
-            <img src="/camila/cami_ice_cube.png" alt="" />
+            <img src="/camila/cami_ice_cube.jpg" alt="" />
           </div>
         </div>
         <div className="gallery-card4">
           <div className="gallery-card-image">
-            <img src="/camila/cami_seat.png" alt="" />
+            <img src="/camila/cami_seat.jpg" alt="" />
           </div>
         </div>
         <div className="gallery-card5">
           <div className="gallery-card-image">
-            <img src="/camila/cami_flower.png" alt="" />
+            <img src="/camila/cami_flower.jpg" alt="" />
           </div>
         </div>
         <div className="gallery-card6">
           <div className="gallery-card-image">
-            <img src="/camila/cami_star.png" alt="" />
+            <img src="/camila/cami_star.jpg" alt="" />
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const TimeLineElement = ({
   date = "15/04/2020",
-  image = "/camila_piscina.png",
+  image = "/camila_piscina.jpg",
 }) => {
   return (
     <div className="timeline-card">

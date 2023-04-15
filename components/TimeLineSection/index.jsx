@@ -2,21 +2,21 @@ import React from "react";
 import TimeLineElement from "../TimeLineElement";
 
 const TimeLineInfo = [
-  { date: "20/03/2010", image: "camila_piscina.png" },
+  { date: "20/03/2010", image: "camila_piscina.jpg" },
 
-  { date: "20/03/2010", image: "cami_delfin.png" },
-  { date: "20/03/2010", image: "cami_peque_seat.png" },
-  { date: "20/03/2010", image: "cami_peque_headphones.png" },
-  { date: "20/03/2010", image: "cami_peque_church.png" },
-  { date: "20/03/2010", image: "cami_medium_with_dog.png" },
-  { date: "20/03/2010", image: "cami_medium_model.png" },
-  { date: "20/03/2010", image: "cami_medium_flower.png" },
-  { date: "20/03/2010", image: "cami_medium_green.png" },
-  { date: "20/03/2010", image: "cami_end_selfie.png" },
-  { date: "20/03/2010", image: "cami_end2.png" },
-  { date: "20/03/2010", image: "cami_end3.png" },
-  { date: "20/03/2010", image: "cami_end4.png" },
-  { date: "20/03/2010", image: "cami_end5.png" },
+  { date: "20/03/2010", image: "cami_delfin.jpg" },
+  { date: "20/03/2010", image: "cami_peque_seat.jpg" },
+  { date: "20/03/2010", image: "cami_peque_headphones.jpg" },
+  { date: "20/03/2010", image: "cami_peque_church.jpg" },
+  { date: "20/03/2010", image: "cami_medium_with_dog.jpg" },
+  { date: "20/03/2010", image: "cami_medium_model.jpg" },
+  { date: "20/03/2010", image: "cami_medium_flower.jpg" },
+  { date: "20/03/2010", image: "cami_medium_green.jpg" },
+  { date: "20/03/2010", image: "cami_end_selfie.jpg" },
+  { date: "20/03/2010", image: "cami_end2.jpg" },
+  { date: "20/03/2010", image: "cami_end3.jpg" },
+  { date: "20/03/2010", image: "cami_end4.jpg" },
+  { date: "20/03/2010", image: "cami_end5.jpg" },
 ];
 
 const TimeLineSection = () => {
