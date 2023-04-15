@@ -51,3 +51,14 @@
   border-right: 30px solid transparent;
   border-top: 40px solid #ffff;
 }
+
+@media screen and (max-width: 500px) {
+  .header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-section-box {
+    width: 90%;
+  }
+}
