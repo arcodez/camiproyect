@@ -11,13 +11,21 @@ const CardSection = () => {
             </h2>
 
             <p className="card-text-paragraph">
-              Pasala super en tu día, eres una persona especial para mí y aunque
-              no hablemos mucho, siempre te recuerdo
+              ¡Feliz cumpleaños, Camila! Aunque estés lejos, quiero que sepas
+              que siempre estás en mi corazón y que te deseo lo mejor en este
+              día tan especial. Espero que recibas muchos abrazos, besos y
+              regalos. Que este año te traiga mucha felicidad, amor y éxito en
+              todo lo que emprendas. Te mando un fuerte abrazo y mis mejores
+              deseos desde aquí. ¡Que disfrutes al máximo tu día!
             </p>
 
             <p className="card-text-paragraph">
-              Ninguna cantidad de palabras puede ser suficiente para expresar
-              mis sentimientos por ti
+              Quiero que sepas que eres una persona muy especial para mí y que
+              te valoro muchísimo. Espero que hoy sea un día lleno de amor,
+              alegría y mucha diversión. Que todos tus deseos se hagan realidad
+              y que recibas todo el cariño que mereces. Aunque no esté contigo
+              en este momento, te envío un abrazo gigante. Te deseo lo mejor hoy
+              y siempre. ¡Feliz cumpleaños!
             </p>
           </div>
           <p className="card-text-by">Att. Abel Rodríguez </p>
